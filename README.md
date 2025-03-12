@@ -1,9 +1,9 @@
 - 👋 Hi, I’m @nenubics
-- 👀 I’m interested in information security/ cybersecurity, games, ML, datascience, just programming :)
+- 👀 I’m interested in information security/ cybersecurity, games, ML, datascience, just coding :)
 - 🌱 I’m currently learning c++, golang, datascience, ML
 - 💞️ I’m looking to collaborate on - i don`t know, :(
-- 📫 How to reach - me okay, just text to me
-- 😄 Pronouns: Artyom
+- 📫 How to reach - okay, just text to me (discord - ne_nubics)
+- 😄 Pronouns: he/him
 - ⚡ Fun fact: i love capybars 
 
 <!---

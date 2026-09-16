@@ -54,7 +54,7 @@ motto: "Breaking code to understand it, writing code to build the future."
 
 #### 💻 Programming Languages
 <p>
-  <img src="https://skillicons.dev/icons?i=cpp,c,go,py,js,bash,html,css" alt="Languages" />
+  <img src="https://skillicons.dev/icons?i=cpp,go,py,js,bash,html,css" alt="Languages" />
 </p>
 
 #### 🧠 Machine Learning & Data Science

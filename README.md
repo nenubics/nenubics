@@ -98,7 +98,7 @@ motto: "Breaking code to understand it, writing code to build the future."
 
   <br/><br/>
 
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=nenubics&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com/?user=nenubics&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak" />
 
 </div>
 

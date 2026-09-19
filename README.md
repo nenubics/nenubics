@@ -1,7 +1,7 @@
 <div align="center">
 
   <!-- Hero Banner -->
-  <img src="./assets/banner.svg" width="100%" alt="Artyom (nenubics) - Banner" />
+  <img src="./assets/banner.svg?v=2" width="100%" alt="Artyom (nenubics) - Banner" />
 
   <br/><br/>
 

@@ -1,7 +1,7 @@
 <div align="center">
 
   <!-- Hero Banner -->
-  <img src="./assets/banner.svg?v=2" width="100%" alt="Artyom (nenubics) - Banner" />
+  <img src="./assets/hero-banner.svg" width="100%" alt="Artyom (nenubics) - Banner" />
 
   <br/><br/>
 
@@ -102,7 +102,7 @@ motto: "Breaking code to understand it, writing code to build the future."
 
   <br/><br/>
 
-  <img src="https://streak-stats.demolab.com/?user=nenubics&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com/?user=nenubics&theme=tokyonight&hide_border=true&background=0D1117&timezone=Europe%2FMoscow" alt="GitHub Streak" />
 
 </div>
 

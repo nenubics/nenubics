@@ -1,7 +1,7 @@
 <div align="center">
 
-  <!-- Apple macOS Hero Banner -->
-  <img src="./assets/apple-banner.svg" width="100%" alt="Artyom (nenubics) - Apple Style Banner" />
+  <!-- Hero Banner -->
+  <img src="./assets/banner.svg" width="100%" alt="Artyom (nenubics) - Banner" />
 
   <br/><br/>
 
@@ -134,5 +134,5 @@ motto: "Breaking code to understand it, writing code to build the future."
 <br/><br/>
 
 <div align="center">
-  <img src="./assets/apple-footer.svg" width="100%" alt="Footer" />
+  <img src="./assets/footer.svg" width="100%" alt="Footer" />
 </div>

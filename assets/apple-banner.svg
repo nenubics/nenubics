@@ -1,0 +1,175 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#08090d"/>
+      <stop offset="50%" stop-color="#12131a"/>
+      <stop offset="100%" stop-color="#090a0f"/>
+    </linearGradient>
+
+    <!-- Border Metallic Apple Gradient -->
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.25"/>
+      <stop offset="35%" stop-color="#ffffff" stop-opacity="0.08"/>
+      <stop offset="70%" stop-color="#38bdf8" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.12"/>
+    </linearGradient>
+
+    <!-- Apple Title Gradient -->
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="60%" stop-color="#f4f4f6"/>
+      <stop offset="100%" stop-color="#a1a1aa"/>
+    </linearGradient>
+
+    <!-- Apple Intelligence Ambient Glows -->
+    <radialGradient id="glowCyan" cx="12%" cy="88%" r="60%">
+      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#00f2fe" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowPurple" cx="88%" cy="85%" r="60%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowMagenta" cx="50%" cy="115%" r="55%">
+      <stop offset="0%" stop-color="#f43f5e" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#f43f5e" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Chip Background Gradient -->
+    <linearGradient id="chipBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.07"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.025"/>
+    </linearGradient>
+    <linearGradient id="chipBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.05"/>
+    </linearGradient>
+
+    <!-- Top Bar Pill Gradient -->
+    <linearGradient id="pillBg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.03"/>
+    </linearGradient>
+
+    <!-- Apple Logo Path Definition for re-use -->
+    <g id="appleLogo">
+      <path d="M14.5 12.8c-.1-2.9 2.4-4.3 2.5-4.4-1.4-2-3.5-2.3-4.2-2.3-1.8-.2-3.5 1-4.4 1-.9 0-2.3-1-3.7-1-1.9 0-3.7 1.1-4.7 2.8-2 3.5-.5 8.7 1.5 11.5 1 1.4 2.1 3 3.6 2.9 1.5-.1 2-.9 3.8-.9s2.3.9 3.8.9c1.6 0 2.6-1.5 3.6-2.9 1.1-1.6 1.6-3.2 1.6-3.3-.1 0-3.1-1.2-3.2-4.3zM11.9 4.1c.8-1 1.3-2.3 1.2-3.7-1.1.1-2.5.7-3.3 1.7-.7.8-1.3 2.2-1.2 3.5 1.3.1 2.5-.6 3.3-1.5z"/>
+    </g>
+
+    <style>
+      .sf-font {
+        font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Helvetica Neue", "Segoe UI", Roboto, sans-serif;
+      }
+      .mono-font {
+        font-family: "SF Mono", Monaco, "Cascadia Code", "Fira Code", Menlo, monospace;
+      }
+      .status-pulse {
+        animation: pulse 2.2s infinite ease-in-out;
+      }
+      @keyframes pulse {
+        0% { opacity: 0.5; r: 3.8px; }
+        50% { opacity: 1; r: 4.8px; }
+        100% { opacity: 0.5; r: 3.8px; }
+      }
+    </style>
+  </defs>
+
+  <!-- Main Apple Window Shell -->
+  <rect x="2" y="2" width="996" height="316" rx="20" ry="20" fill="url(#bg)" stroke="url(#borderGrad)" stroke-width="1.5"/>
+
+  <!-- Ambient Apple Intelligence Glow Layers -->
+  <rect x="2" y="2" width="996" height="316" rx="20" ry="20" fill="url(#glowCyan)" style="mix-blend-mode: screen;"/>
+  <rect x="2" y="2" width="996" height="316" rx="20" ry="20" fill="url(#glowPurple)" style="mix-blend-mode: screen;"/>
+  <rect x="2" y="2" width="996" height="316" rx="20" ry="20" fill="url(#glowMagenta)" style="mix-blend-mode: screen;"/>
+
+  <!-- Window Header Bar Divider -->
+  <line x1="2" y1="52" x2="998" y2="52" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1"/>
+
+  <!-- macOS Traffic Lights (Window Controls) -->
+  <g transform="translate(26, 20)">
+    <!-- Close -->
+    <circle cx="6" cy="6" r="6" fill="#FF5F56" stroke="#E0443E" stroke-width="0.8"/>
+    <!-- Minimize -->
+    <circle cx="26" cy="6" r="6" fill="#FFBD2E" stroke="#DEA123" stroke-width="0.8"/>
+    <!-- Zoom -->
+    <circle cx="46" cy="6" r="6" fill="#27C93F" stroke="#1AAB29" stroke-width="0.8"/>
+  </g>
+
+  <!-- macOS Window Center Title Pill -->
+  <g transform="translate(375, 14)">
+    <rect x="0" y="0" width="250" height="24" rx="12" fill="url(#pillBg)" stroke="#ffffff" stroke-opacity="0.08" stroke-width="0.8"/>
+    <use href="#appleLogo" transform="translate(24, 4.5) scale(0.8)" fill="#86868B"/>
+    <text x="135" y="16" text-anchor="middle" fill="#86868B" class="sf-font" font-size="12" font-weight="500" letter-spacing="0.2">
+      nenubics-macbook-pro
+    </text>
+  </g>
+
+  <!-- Right Status Badge (Live Indicator) -->
+  <g transform="translate(815, 14)">
+    <rect x="0" y="0" width="160" height="24" rx="12" fill="url(#pillBg)" stroke="#ffffff" stroke-opacity="0.08" stroke-width="0.8"/>
+    <!-- Glowing green dot -->
+    <circle cx="16" cy="12" r="4" fill="#34D399" class="status-pulse"/>
+    <circle cx="16" cy="12" r="7" fill="#34D399" fill-opacity="0.25"/>
+    <text x="28" y="16" fill="#A1A1AA" class="sf-font" font-size="11.5" font-weight="500">
+      Available for Projects
+    </text>
+  </g>
+
+  <!-- Main Hero Content -->
+  <g transform="translate(56, 114)">
+    <!-- Apple Vector Icon -->
+    <use href="#appleLogo" transform="scale(1.7) translate(-1, -1)" fill="#F5F5F7" fill-opacity="0.95"/>
+
+    <!-- Large Apple-style Name Title -->
+    <text x="44" y="32" class="sf-font" font-size="44" font-weight="700" letter-spacing="-0.8" fill="url(#titleGrad)">
+      Artyom <tspan font-weight="400" fill="#6B7280" font-size="34">/ nenubics</tspan>
+    </text>
+
+    <!-- Subtitle / Roles -->
+    <text x="2" y="68" class="sf-font" font-size="18" font-weight="500" fill="#9CA3AF" letter-spacing="-0.2">
+      Cybersecurity Researcher <tspan fill="#38BDF8">•</tspan> Machine Learning <tspan fill="#A855F7">•</tspan> Systems Programming
+    </text>
+
+    <!-- Motto in Apple Terminal aesthetic -->
+    <text x="2" y="96" class="mono-font" font-size="13.5" fill="#6B7280" letter-spacing="-0.1">
+      <tspan fill="#0A84FF">const</tspan> vision = <tspan fill="#34D399">"Breaking code to understand it, writing code to build the future."</tspan>;
+    </text>
+  </g>
+
+  <!-- Bento Feature Chips (Apple Pill / Widget style) -->
+  <g transform="translate(60, 252)">
+    <!-- Chip 1: Cybersecurity -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="205" height="38" rx="11" fill="url(#chipBg)" stroke="url(#chipBorder)" stroke-width="1"/>
+      <text x="20" y="24" class="sf-font" font-size="13" font-weight="500" fill="#E5E7EB">
+        🛡️ <tspan fill="#FFFFFF" font-weight="600">CTF &amp; Exploitation</tspan>
+      </text>
+    </g>
+
+    <!-- Chip 2: Local AI & LLMs -->
+    <g transform="translate(225, 0)">
+      <rect x="0" y="0" width="205" height="38" rx="11" fill="url(#chipBg)" stroke="url(#chipBorder)" stroke-width="1"/>
+      <text x="18" y="24" class="sf-font" font-size="13" font-weight="500" fill="#E5E7EB">
+        🤖 <tspan fill="#FFFFFF" font-weight="600">Unified AI &amp; LLMs</tspan>
+      </text>
+    </g>
+
+    <!-- Chip 3: Systems -->
+    <g transform="translate(450, 0)">
+      <rect x="0" y="0" width="205" height="38" rx="11" fill="url(#chipBg)" stroke="url(#chipBorder)" stroke-width="1"/>
+      <text x="20" y="24" class="sf-font" font-size="13" font-weight="500" fill="#E5E7EB">
+        ⚙️ <tspan fill="#FFFFFF" font-weight="600">C++ &amp; Go Systems</tspan>
+      </text>
+    </g>
+
+    <!-- Chip 4: Knowledge / Second Brain -->
+    <g transform="translate(675, 0)">
+      <rect x="0" y="0" width="205" height="38" rx="11" fill="url(#chipBg)" stroke="url(#chipBorder)" stroke-width="1"/>
+      <text x="16" y="24" class="sf-font" font-size="13" font-weight="500" fill="#E5E7EB">
+        🧠 <tspan fill="#FFFFFF" font-weight="600">Learning OS Vault</tspan>
+      </text>
+    </g>
+  </g>
+
+</svg>

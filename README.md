@@ -1,11 +1,13 @@
 <div align="center">
 
-  <!-- Header Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,15,35,70,100&height=220&section=header&text=Artyom%20%7C%20nenubics&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Cybersecurity%20%E2%80%A2%20Machine%20Learning%20%E2%80%A2%20Systems%20Programming&descFontSize=18&descAlignY=58&descAlign=50" width="100%" alt="Header" />
+  <!-- Apple macOS Hero Banner -->
+  <img src="./assets/apple-banner.svg" width="100%" alt="Artyom (nenubics) - Apple Style Banner" />
+
+  <br/><br/>
 
   <!-- Dynamic Animated Typing Subtitle -->
   <a href="https://github.com/nenubics">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=550&lines=Hi+there%2C+I'm+Artyom+%F0%9F%91%8B;Cybersecurity+%26+CTF+Enthusiast+%F0%9F%9B%A1%EF%B8%8F;Ugra+CTF+2025+Finalist+%F0%9F%8F%86;Exploring+Machine+Learning+%26+Local+AI+%F0%9F%A4%96;C%2B%2B+%7C+Go+%7C+Python+%7C+Linux+Systems+%E2%9A%99%EF%B8%8F" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=SF+Pro+Display&weight=600&size=21&duration=3000&pause=1000&color=0A84FF&center=true&vCenter=true&width=600&lines=Hi+there%2C+I'm+Artyom+%F0%9F%91%8B;Cybersecurity+%26+CTF+Finalist+%F0%9F%9B%A1%EF%B8%8F;Building+Unified+AI+%26+Local+LLM+APIs+%F0%9F%A4%96;Second+Brain+%26+Systems+Engineering+%F0%9F%A7%A0;C%2B%2B+%E2%80%A2+Go+%E2%80%A2+Python+%E2%80%A2+Linux+Systems+%E2%9A%99%EF%B8%8F" alt="Typing SVG" />
   </a>
 
   <br/><br/>
@@ -17,7 +19,7 @@
   <a href="https://github.com/nenubics">
     <img src="https://img.shields.io/badge/GitHub-nenubics-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
-  <img src="https://komarev.com/ghpvc/?username=nenubics&label=Profile+Views&color=6366f1&style=for-the-badge" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username=nenubics&label=Profile+Views&color=0a84ff&style=for-the-badge" alt="Profile Views" />
 
 </div>
 
@@ -33,18 +35,18 @@ location: Russia
 pronouns: he/him
 roles:
   - Cybersecurity & CTF Player
-  - ML & Data Science Explorer
+  - AI & Local LLM Systems Builder
   - Systems & Backend Developer
 core_stack: [C++, Go, Python, Linux]
-current_focus: [Local AI Web UIs, CTF Binary/Web Exploits, Deep Learning]
+current_focus: [Unified LLM APIs, Second Brain (Obsidian + LLM), CTF Exploits]
 motto: "Breaking code to understand it, writing code to build the future."
 ```
 
-- 🏆 **Cybersecurity & CTF**: 2-time participant in **Ugra CTF (2024–2025)**, qualified and invited to the **Ugra CTF 2025 Finals**! Passionate about web security, binary analysis, cryptography, and network defense.
-- 🤖 **Machine Learning & AI**: Building lightweight tools and user interfaces for local AI models ([web_ui_for_local_ai](https://github.com/nenubics/web_ui_for_local_ai)) and mastering machine learning algorithms ([ml_learning](https://github.com/nenubics/ml_learning)).
-- ⚙️ **Systems Engineering**: Diving deep into **C++**, **Go (Golang)**, and **Linux/Unix** system programming.
-- 📚 **Knowledge Sharing**: Compiling lecture summaries and educational resources for fellow university students ([lecture notes archive](https://github.com/nenubics/-lecture-summaries-and-recordings)).
-- 🚀 **Vision**: Blending cybersecurity resilience with modern artificial intelligence and tech entrepreneurship.
+- 🏆 **Cybersecurity & CTF**: 2-time participant in **Ugra CTF (2024–2025)**, qualified and invited to the **Ugra CTF 2025 Finals**! Passionate about web security, binary analysis, reverse engineering, and network defense.
+- 🤖 **AI & Local LLM Systems**: Developing high-performance unified LLM proxies ([qwen-deepseek-united-free-api](https://github.com/nenubics/qwen-deepseek-united-free-api)) and lightweight local AI web interfaces ([web_ui_for_local_ai](https://github.com/nenubics/web_ui_for_local_ai)), backed by hands-on machine learning research ([ml_learning](https://github.com/nenubics/ml_learning)).
+- 🧠 **Second Brain & Knowledge Engineering**: Architecting [learning_os_vault](https://github.com/nenubics/learning_os_vault) — an integrated learning OS linking Obsidian, Git, and LLMs for structured knowledge compilation, alongside university study materials ([lecture notes](https://github.com/nenubics/-lecture-summaries-and-recordings)).
+- ⚙️ **Systems Engineering**: Crafting robust tools in **C++**, **Go (Golang)**, and **Linux/Unix** low-level infrastructure.
+- 🚀 **Vision**: Fusing cybersecurity resilience with sovereign AI systems and elegant software craft.
 
 ---
 
@@ -72,6 +74,7 @@ motto: "Breaking code to understand it, writing code to build the future."
   <img src="https://img.shields.io/badge/Ghidra-E95420?style=flat-square&logo=nsa&logoColor=white" alt="Ghidra" />
   <img src="https://img.shields.io/badge/CTF-Finalist-FFD700?style=flat-square&logo=target&logoColor=black" alt="CTF" />
   <img src="https://img.shields.io/badge/Burp_Suite-FF6633?style=flat-square&logo=portswigger&logoColor=white" alt="Burp Suite" />
+  <img src="https://img.shields.io/badge/Obsidian-483699?style=flat-square&logo=obsidian&logoColor=white" alt="Obsidian" />
 </p>
 
 </div>
@@ -82,10 +85,11 @@ motto: "Breaking code to understand it, writing code to build the future."
 
 | Project | Description | Tech Stack | Status |
 | :--- | :--- | :--- | :---: |
+| ⚡ **[qwen-deepseek-united-free-api](https://github.com/nenubics/qwen-deepseek-united-free-api)** | Unified OpenAI-compatible server combining Qwen & DeepSeek with auto-routing and multi-account rotation | `Python` `FastAPI` `OpenAI API` | 🚀 Active |
+| 🧠 **[learning_os_vault](https://github.com/nenubics/learning_os_vault)** | Personal Second Brain / Learning OS connecting Obsidian, Git, and LLMs for verified knowledge synthesis | `Markdown` `Obsidian` `LLM` | 📖 Active |
 | 🤖 **[web_ui_for_local_ai](https://github.com/nenubics/web_ui_for_local_ai)** | Fast & responsive web UI designed for interacting with local AI / LLM models | `JavaScript` `CSS` `AI` | 🔨 Active |
-| 🧠 **[ml_learning](https://github.com/nenubics/ml_learning)** | Hands-on experiments, algorithms, and deep learning notebooks | `Python` `Jupyter` `ML` | 🔬 Research |
-| 🌐 **[nenubics-site](https://github.com/nenubics/nenubics-site)** | Personal website and digital portfolio | `CSS` `HTML` `Web` | 🎨 Portfolio |
-| 📚 **[-lecture-summaries-and-recordings](https://github.com/nenubics/-lecture-summaries-and-recordings)** | Comprehensive lecture summaries, study guides, and university materials | `Markdown` `CS` | 📖 Resource |
+| 🔬 **[ml_learning](https://github.com/nenubics/ml_learning)** | Hands-on experiments, algorithms, and deep learning notebooks | `Python` `Jupyter` `ML` | 🔬 Research |
+| 📚 **[-lecture-summaries-and-recordings](https://github.com/nenubics/-lecture-summaries-and-recordings)** | Comprehensive lecture summaries, study guides, and university materials | `Markdown` `CS` | 🎓 Resource |
 
 ---
 
@@ -127,10 +131,8 @@ motto: "Breaking code to understand it, writing code to build the future."
   </a>
 </div>
 
-<br/>
+<br/><br/>
 
 <div align="center">
-  <sub><i>"Talk is cheap. Show me the code." — Linus Torvalds</i></sub>
-  <br/><br/>
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,15,35,70,100&height=120&section=footer" width="100%" alt="Footer" />
+  <img src="./assets/apple-footer.svg" width="100%" alt="Footer" />
 </div>
